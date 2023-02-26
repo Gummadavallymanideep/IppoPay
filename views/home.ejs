@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/css/home.css">
+<h1>
+    <h1>
+        <div>
+            <p>
+                <%= title %>
+            </p>
+        </div>
+</h1>        
+ <div class="auth-links">
+    <ul>
+        <% if(locals.user){ %>
+            <li>
+                Deposite
+            </li>
+            <li>
+                With Draw Money
+            </li>
+            <li>
+                Apply Loan
+            </li>
+        <% } %>
+    </ul>
+</div>
+
