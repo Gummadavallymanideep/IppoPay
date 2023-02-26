@@ -71,7 +71,7 @@ module.exports.createSession = function(req, res){
 
 module.exports.deposite = function(req, res){
     if (req.isAuthenticated()){
-        return res.redirect('/views/deposite');
+        return res.redirect('/views/deposite.ejs');
     }
 }
 
